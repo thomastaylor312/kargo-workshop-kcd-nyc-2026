@@ -4,7 +4,7 @@
 # Terraform
 **/.terraform/*
 *.tfstate.backup
-crash.log
+
 *.tfplan
 
 # OS / editor
@@ -17,3 +17,6 @@ crash.log
 # Python
 __pycache__/
 *.pyc
+
+# Project specific
+**/*.log
