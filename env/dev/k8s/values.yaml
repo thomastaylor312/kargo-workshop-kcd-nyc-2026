@@ -2,6 +2,6 @@
 stage: dev
 replicaCount: 1
 image:
-  tag: 4
+  tag: 6
 env:
   LAMBDA_URL: https://xvk7cmevlit4zf4g4um5ew6wta0jxuqr.lambda-url.us-east-1.on.aws/
