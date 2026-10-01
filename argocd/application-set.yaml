@@ -23,7 +23,7 @@ spec:
     spec:
       project: guestbook
       source:
-        repoURL: https://github.com/akuity/kargo-workshop-kcd-nyc-2026
+        repoURL: https://github.com/thomastaylor312/kargo-workshop-kcd-nyc-2026
         targetRevision: main
         path: charts/guestbook
         helm:

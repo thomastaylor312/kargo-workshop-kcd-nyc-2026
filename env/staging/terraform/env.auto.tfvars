@@ -1,5 +1,5 @@
 # CHANGE `participant` to something unique to your fork (e.g. your GitHub handle).
-participant = "akuity"
+participant = "thomastaylor312"
 env_name    = "staging"
 # image_tag is updated by the Kargo promotion (hcl-update).
 image_tag = "latest"

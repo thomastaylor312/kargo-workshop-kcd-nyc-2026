@@ -26,9 +26,9 @@ spec:
     spec:
       vars:
         - name: repoURL
-          value: https://github.com/akuity/kargo-workshop-kcd-nyc-2026
+          value: https://github.com/thomastaylor312/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/akuity/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/thomastaylor312/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
@@ -85,9 +85,9 @@ spec:
     spec:
       vars:
         - name: repoURL
-          value: https://github.com/akuity/kargo-workshop-kcd-nyc-2026
+          value: https://github.com/thomastaylor312/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/akuity/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/thomastaylor312/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
@@ -172,9 +172,9 @@ spec:
     spec:
       vars:
         - name: repoURL
-          value: https://github.com/akuity/kargo-workshop-kcd-nyc-2026
+          value: https://github.com/thomastaylor312/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/akuity/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/thomastaylor312/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:

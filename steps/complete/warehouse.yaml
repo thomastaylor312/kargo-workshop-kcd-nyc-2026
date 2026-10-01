@@ -9,14 +9,14 @@ spec:
     # main and tagged with the workflow run number. NewestBuild picks the most
     # recently pushed matching image.
     - image:
-        repoURL: ghcr.io/akuity/kargo-workshop-kcd-nyc-2026
+        repoURL: ghcr.io/thomastaylor312/kargo-workshop-kcd-nyc-2026
         imageSelectionStrategy: NewestBuild
         allowTags: ^[0-9]+$
         discoveryLimit: 10
     # The repo itself, so the chart/lambda/terraform source travels with the
     # freight. We exclude env/ (the promotion writes there) to avoid a loop.
     - git:
-        repoURL: https://github.com/akuity/kargo-workshop-kcd-nyc-2026
+        repoURL: https://github.com/thomastaylor312/kargo-workshop-kcd-nyc-2026
         includePaths:
           - app/
           - lambda/
