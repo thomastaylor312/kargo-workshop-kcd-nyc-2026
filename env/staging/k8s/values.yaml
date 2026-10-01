@@ -2,6 +2,6 @@
 stage: staging
 replicaCount: 1
 image:
-  tag: 4
+  tag: 6
 env:
   LAMBDA_URL: ""
